@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION analytics_admin.get_materialized_view_ddl(
+CREATE OR REPLACE FUNCTION get_materialized_view_ddl(
      p_schema_name TEXT,
     p_matview_name TEXT
 )
