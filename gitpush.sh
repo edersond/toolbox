@@ -1,0 +1,1 @@
+GIT_SSH_COMMAND='ssh -i ghb -o IdentitiesOnly=yes' git push origin main
