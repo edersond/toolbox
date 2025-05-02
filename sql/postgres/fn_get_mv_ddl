@@ -1,3 +1,7 @@
+--#########################################
+--Retorna o DDL de uma materialized view (postgres)
+--#########################################
+
 CREATE OR REPLACE FUNCTION get_materialized_view_ddl(
      p_schema_name TEXT,
     p_matview_name TEXT
