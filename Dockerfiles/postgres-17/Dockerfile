@@ -1,0 +1,6 @@
+FROM postgres:17.4-bookworm
+
+ENV POSTGRES_PASSWORD=p0stgr3s
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_DB=postgres
+EXPOSE 5435
