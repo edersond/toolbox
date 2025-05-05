@@ -1,0 +1,58 @@
+context = {
+    'dag': <DAG: dag-1>,
+    'task': <Task(PythonOperator): func_with_params_and_default_args>,
+    'task_instance': RuntimeTaskInstance(
+        id=UUID('0196a0c3-65c7-74d9-8ad3-202a67e51028'),
+        task_id='func_with_params_and_default_args',
+        dag_id='dag-1',
+        run_id='manual__2025-05-05T14:04:42.282132+00:00',
+        try_number=1,
+        map_index=-1,
+        hostname='7d4496011cef',
+        start_date=datetime.datetime(2025, 5, 5, 14, 4, 43, 849686, tzinfo=UTC),
+        end_date=None
+    ),
+    'ti': <mesmo que task_instance>,
+    'dag_run': DagRun(
+        dag_id='dag-1',
+        run_id='manual__2025-05-05T14:04:42.282132+00:00',
+        logical_date=datetime.datetime(2025, 5, 5, 14, 4, 41, tzinfo=UTC),
+        data_interval_start=datetime.datetime(2025, 5, 5, 14, 4, 41, tzinfo=UTC),
+        data_interval_end=datetime.datetime(2025, 5, 5, 14, 4, 41, tzinfo=UTC),
+        run_after=datetime.datetime(2025, 5, 5, 14, 4, 41, tzinfo=UTC),
+        start_date=datetime.datetime(2025, 5, 5, 14, 4, 42, 739472, tzinfo=UTC),
+        run_type='manual',
+        conf={
+            'param1': 'value1',
+            'param2': 'value2'
+        }
+    ),
+    'params': {
+        'param1': 'value1',
+        'param2': 'value2'
+    },
+    'param1': 'value1',  # redundante, mas Airflow põe no root também
+    'param2': 'value2',
+    'ds': '2025-05-05',
+    'ds_nodash': '20250505',
+    'ts': '2025-05-05T14:04:41+00:00',
+    'ts_nodash': '20250505T140441',
+    'ts_nodash_with_tz': '20250505T140441+0000',
+    'data_interval_start': datetime.datetime(2025, 5, 5, 14, 4, 41, tzinfo=UTC),
+    'data_interval_end': datetime.datetime(2025, 5, 5, 14, 4, 41, tzinfo=UTC),
+    'task_instance_key_str': 'dag-1__func_with_params_and_default_args__20250505',
+    'task_reschedule_count': 0,
+    'inlets': [],
+    'outlets': [],
+    'inlet_events': InletEventsAccessors(_inlets=[], _assets={}, _asset_aliases={}),
+    'outlet_events': <OutletEventAccessors>,
+    'triggering_asset_events': <TriggeringAssetEventsAccessor>,
+    'macros': <MacrosAccessor>,
+    'var': {
+        'json': <VariableAccessor>,
+        'value': <VariableAccessor>
+    },
+    'conn': <ConnectionAccessor>,
+    'map_index_template': None,
+    'templates_dict': None
+}
