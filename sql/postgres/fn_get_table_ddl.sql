@@ -1,3 +1,8 @@
+--#########################################
+--Retorna o DDL de uma tabela (postgres)
+--#########################################
+
+
 CREATE OR REPLACE FUNCTION get_table_ddl(
     p_schema_name TEXT,
     p_table_name TEXT
