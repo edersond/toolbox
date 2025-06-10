@@ -6,3 +6,5 @@ apt install -y \
     curl \
     gnupg \
     lsb-release
+
+mkdir var/sslkeys
