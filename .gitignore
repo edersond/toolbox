@@ -1,3 +1,4 @@
 ghb
 ghb.pub
 gitpush.sh
+*.env*
